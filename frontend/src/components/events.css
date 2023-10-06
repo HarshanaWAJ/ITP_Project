@@ -1,0 +1,134 @@
+.imgeventview {
+    height: 150px;
+    width: 100%;
+}
+
+.cardeventview {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card-titleeventview {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card-titleeventview i {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+    color: #ffa710
+}
+
+.card-titleeventview i:hover {
+    transform: scale(1.25) rotate(100deg);
+    color: #18d4ca;
+
+}
+
+.cardeventview:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cardeventview::before,
+.cardeventview::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+}
+
+.cardeventview::before {
+    transform-origin: left top;
+}
+
+.cardeventview::after {
+    transform-origin: right bottom;
+}
+
+.cardeventview:hover::before,
+.cardeventview:hover::after,
+.cardeventview:focus::before,
+.cardeventview:focus::after {
+    transform: scale3d(1, 1, 1);
+}
+
+.cardhver {
+    box-shadow: 1px 1px 10px 1px rgba(43, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+
+
+.bodyevetadd {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.cardevetadd {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    background: hsl(100, 100%, 99%)
+}
+
+.blue-textevetadd {
+    color: #00BCD4
+}
+
+.form-control-labelevetadd {
+    margin-bottom: 0
+}
+
+
+.buttonevetadd {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+.inputevetadd:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-blockevetadd {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-blockevetadd:hover {
+    color: #fff !important
+}
+
+.buttonevetadd:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}

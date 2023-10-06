@@ -1,0 +1,47 @@
+.navbarcontainer {
+    background-color: #640C0F;
+    text-decoration: none;
+    color: #F1CF3D;
+    height: max-content;
+    } 
+
+.navul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navlist {
+    float: left;
+}
+
+.navlist .link {
+    display: block;
+    color: #F1CF3D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navlist :hover{
+    background-color:#F1CF3D;
+    color: #640C0F;
+}
+
+.leftlist {
+    float: right;
+    padding-right: 20px;
+}
+
+ .leftlist .link {
+    display: block;
+    color: #F1CF3D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+ }
+
+ .leftlist :hover{
+    background-color:#F1CF3D;
+    color: #640C0F;
+ }

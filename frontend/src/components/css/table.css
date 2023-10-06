@@ -1,0 +1,44 @@
+ .event {
+    width: 100%;
+    height: 100px;
+    justify-content: left;
+    border-collapse: collapse;
+    border: #640C0F;
+    }
+    
+     table {
+    border: 2px solid #640C0F;
+    width: 80%;
+    height: 50px;
+    margin: 50px;
+    
+    }
+    .th{
+        color: rgb(0, 0, 0);
+        background-color: #F1CF3D;
+        text-align: center;
+        
+
+    } 
+
+    .tabledata{
+
+        text-align: left;
+        margin-left: 20PX;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .buttonedt{
+        padding: 5px;
+        margin: 3px;
+        
+    }
+   
+    
+   
+ 
+    /* .event {
+        background-image: url("../img/home.jpg");;
+    } */
+    
+

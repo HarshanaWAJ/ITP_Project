@@ -1,0 +1,17 @@
+.image-row{
+    /* display: inline-block; */
+    float: left;
+    width: "25%";
+    /* width: "10px"; */
+    height: "10px";
+  }
+
+  .image-row img + img {
+    /* margin-left: 10px; */
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }

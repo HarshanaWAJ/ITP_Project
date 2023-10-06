@@ -1,0 +1,86 @@
+form{
+    width: 60%;
+    border-radius: 15px;
+    background-color: #F1CF3D;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+input[type="text"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: #640C0F;
+    align-items: end;
+}
+
+input[type="password"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: #640C0F;
+    align-items: end;
+}
+input[type="text"]:focus {
+    background-color: #F5E9B6;
+    color: #640C0F;
+  }
+
+input[type="password"]:focus {
+    background-color: #F5E9B6;
+    color: #640C0F;
+  }
+
+input[type="submit"]{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #640C0F;
+}
+
+input[type="submit"]:hover{
+    background-color: #640C0F;
+    color: white;
+}
+
+input[type="date"]{
+    width: 69.9%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: #640C0F;
+}
+
+
+
+input[type="email"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: #640C0F;
+}
+
+input[type="email"]:focus {
+    background-color: #F5E9B6;
+    color: #640C0F;
+  }
+
+  select {
+    width: 74%;
+    padding: 12px 20px;
+    margin: 10px 0;
+  }

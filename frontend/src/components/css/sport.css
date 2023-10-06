@@ -1,0 +1,128 @@
+.imgs {
+    height: 310px;
+    padding-Right:10px;
+    padding-left: 10px;
+    border-radius: 25px;
+    width :100%;
+
+}
+
+.icon {
+    width: 16.66%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.divclz {
+    align-items: center;
+    
+    align-content: center;
+    /* background-color: rgb(37, 28, 162); */
+
+}
+
+.divclz2 {
+   
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(84, 209, 42); */
+    display: inline-block;
+
+}
+
+.label1 {
+    width: 30px;
+    font-size: 25px;
+    margin: 0px 0px 20px 10px;
+    height: 16.66%;
+}
+.text1 {
+    font-style: italic;
+    font-size: 25px;
+}
+.table {
+
+    width: 330px;
+    height: 35px;
+    margin-left: 8px;
+    border: 2px ;
+    
+  
+
+}
+.tbdata{
+    height:50px;
+   
+}
+.td{
+    text-align: left;
+    padding-left: 90px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+   
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   
+}
+
+.divclz3 {
+   
+    width: 100%;
+    
+    height: auto;
+    text-align: left;
+    background-color: aquamarine;
+    float: left;
+    margin-right: 500px;
+    
+    
+}
+
+.achiveicon {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.label2 {
+    width: 200px;
+    font-size: 20px;
+    margin: 10px 0px 10px 10px;
+    height:35PX;
+    background-color: #F1CF3D;
+    border-radius: 15PX;
+}
+
+.button {
+
+    background-color: #640C0F; /* Green */
+    border: none;
+    color: #F1CF3D;
+  
+    display: inline-block;
+    font-size: 28px;
+    margin: 5px 45px 30px 30px;
+    height: 50px;
+    width: 200px;
+   border-radius: 20px;
+   
+
+}
+.edtbutton {
+
+    background-color: #640C0F; 
+    border: none;
+    color: #F1CF3D;
+   font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+   border-radius: 20px;
+    
+}

@@ -1,0 +1,21 @@
+.images {
+   width: 20%;
+    height: 220px;
+    flex: 1;
+}
+
+.button {
+
+    background-color: #640C0F; /* Green */
+    border: none;
+    color: #F1CF3D;
+  
+    display: inline-block;
+    font-size: 28px;
+    margin: 5px 45px 30px 30px;
+    height: 50px;
+    width: 200px;
+   border-radius: 20px;
+   
+
+}

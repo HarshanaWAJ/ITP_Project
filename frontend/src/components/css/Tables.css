@@ -1,0 +1,22 @@
+.container{
+    margin-left: 20%;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left{
+    text-align: left;
+}
+th {
+    background-color: #F1CF3D;
+}
+
+.table {
+    width: 100%;
+}
+
+button.hover{
+    background-color: #F1CF3D;
+}
